@@ -1,6 +1,6 @@
 ---
 title: Post with Header Image
-key: testKey
+key: blog_test
 tags: TeXt
 pageview: true
 comment: true
