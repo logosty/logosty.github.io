@@ -1,3 +1,32 @@
 <!-- start custom article footer snippet -->
+{% assign _root_path = page.path | slice: 0, 5 %}
+{% assign _lang = page.lang | slice: 0, 2 %}
+{%- if _root_path == '_docs' -%}
 
+
+    <div class="article__content my-3">
+      <hr />
+      <p><strong>你的支持是我的动力。你可以通过以下方式支持我：</strong></p>
+      <ul>
+        <li>给该项目点赞&nbsp;<a style="vertical-align: text-bottom;" href="https://github.com/logosty/logosty.github.io.git/">
+          <img src="https://img.shields.io/github/stars/logosty/logosty.github.io.svg?label=Stars&style=social" alt="给该项目点赞" />
+        </a></li>
+        <li>关注我的 Github&nbsp;<a style="vertical-align: text-bottom;"  href="https://github.com/logosty/">
+          <img src="https://img.shields.io/github/followers/logosty.svg?label=Follow&style=social" alt="关注我的 Github" />
+        </a></li>
+        <li>打赏</li>
+      </ul>
+      <table>
+        <thead><tr>
+          <th>微信支付</th>
+          <th>支付宝</th>
+        </tr></thead>
+        <tbody><tr>
+          <td><img style="max-widht: 150px; max-height: 150px" src="https://github.com/logosty/logosty.github.io/blob/master/docs/assets/images/tip_wechat.png?raw=true" alt="微信支付二维码" /></td>
+          <td><img style="max-widht: 150px; max-height: 150px" src="https://github.com/logosty/logosty.github.io/blob/master/docs/assets/images/tip_alipay.png?raw=true" alt="支付宝二维码" /></td>
+        </tr></tbody>
+      </table>
+    </div>
+
+{%- endif -%}
 <!-- end custom article footer snippet -->
