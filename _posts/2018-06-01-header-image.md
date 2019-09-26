@@ -1,5 +1,6 @@
 ---
 title: Post with Header Image
+key: testKey
 tags: TeXt
 pageview: true
 comment: true
