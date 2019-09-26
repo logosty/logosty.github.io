@@ -147,7 +147,7 @@ comments:
 ## => Pageview
 ##############################
 pageview:
-  provider: false # false (default), "leancloud", "custom"
+  provider: leancloud # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:
@@ -214,6 +214,7 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
+      comment: true
 
 
 ## => Plugins
