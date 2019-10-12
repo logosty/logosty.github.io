@@ -1,5 +1,5 @@
 ---
-tags: springboot
+tags: [springboot,config]
 title: springboot 配置扫描 jar 包中的 repository
 key: blog_springboot_repository
 pageview: true
